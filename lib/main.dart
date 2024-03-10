@@ -1,4 +1,5 @@
 import 'package:edu_track/Onboarding/onboarding_view.dart';
+import 'package:edu_track/registration_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnboardingView(),
+      // home: const OnboardingView(),
+      home: const RegistrationScreen(),
     );
   }
 }

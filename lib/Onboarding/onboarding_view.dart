@@ -15,6 +15,12 @@ class _OnboardingViewState extends State<OnboardingView> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      bottomSheet: Row(
+        children: [
+          TextButton(onPressed: (){}, child: Text("Skip") ),
+          TextButton(onPressed: (){}, child: Text("Next")),
+        ],
+      ),
       body: Container(
         margin: const EdgeInsets.symmetric(horizontal: 15),
         child: PageView.builder(
@@ -25,7 +31,12 @@ class _OnboardingViewState extends State<OnboardingView> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(controller.items[index].image),
-                  Text(controller.items[index].title),
+                  const SizedBox(height: 15),
+                  Text(controller.items[index].title,
+                    style: const TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+                  const SizedBox(height: 15),
+                  Text(controller.items[index].descriptions,
+                  style: const TextStyle(color: Colors.grey, fontSize: 15),textAlign: TextAlign.center,),
                 ],
               );
 
