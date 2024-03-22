@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const OnboardingView(),
-      home: const RegistrationScreen(),
+      home: const OnboardingView(),
     );
   }
 }

@@ -5,17 +5,17 @@ class OnboardingItems{
     OnboardingInfo(
         title: "University Of South Wales",
         descriptions: "The University of South Wales is a public university in Wales, with campuses in Cardiff, Newport and Pontypridd.",
-        image: "assets/test.gif",
+        image: "assets/uni_logo.png",
     ),
     OnboardingInfo(
-      title: "title2",
-      descriptions: "descriptions",
-      image: "assets/test.gif",
+      title: "Insights & Innovations",
+      descriptions: "Explore vital roles, challenges, and innovations in university student registries for academic advancement.",
+      image: "assets/edutrack1.gif",
     ),
     OnboardingInfo(
-      title: "title3",
-      descriptions: "descriptions",
-      image: "assets/test.gif",
+      title: "Academic Efficiency",
+      descriptions: "Unlock the power of efficient academic record management through innovative student registry systems and practices.",
+      image: "assets/edutrack2.gif",
     ),
   ];
 }
